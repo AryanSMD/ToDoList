@@ -52,8 +52,7 @@ function switcher(firstIndex: number, secondIndex: number) {
         <div h-full flex flex-col gap-2 class="card">
             <div class="title">List</div>
             <div 
-                v-auto-animate
-                w-full h-full border-1 border-solid border-slate-300 dark:border-slate-600
+                v-auto-animate w-full h-full border-1 border-solid border-slate-300 dark:border-slate-600
                 rounded-md p-2 flex flex-col divide-y-1 divide-x-0 divide-solid divide-slate-300 
                 dark:divide-slate-600 transition-all duration-300 overflow-x-hidden
             >
